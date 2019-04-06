@@ -21,4 +21,23 @@ public class MoneySavingCalculatorTest {
                         BigDecimal.valueOf(1000), Period.ofYears(1))
         );
     }
+    @Test
+    @Description("During period of 138 day, when saving is 1.23 once a day, total savings should be 169.74")
+    void saveEachDayDuring138days169_74pln() {
+        Assertions.assertEquals(
+                BigDecimal.valueOf(169.74),
+                calc.calculateSavings(SavingFrequency.EACH_DAY,
+                        BigDecimal.valueOf(169.74), Period.ofDays(138))
+        );
+    }
+    @Test
+    @Description("During period of 138 day, when saving is 1.23 once a day, total savings should be 169.74")
+    void saveEachWeekDuring100days28pln() {
+        Assertions.assertEquals(
+                BigDecimal.valueOf(28),
+                calc.calculateSavings(SavingFrequency.EACH_WEEK,
+                        BigDecimal.valueOf(28), Period.ofDays(100))
+        );
+    }
+
 }

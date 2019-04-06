@@ -8,7 +8,7 @@ public class MoneySavingCalculator {
     public BigDecimal calculateSavings(
             SavingFrequency frequency,
             BigDecimal singleAmmount,
-            Period duration
+            Period duration  //klasa czasowa w java od-do
     ) {
 
         return singleAmmount;
