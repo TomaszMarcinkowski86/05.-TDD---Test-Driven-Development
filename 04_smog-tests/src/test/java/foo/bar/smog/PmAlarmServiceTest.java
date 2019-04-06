@@ -30,9 +30,7 @@ class PmAlarmServiceTest {
         long finish = System.currentTimeMillis();
         timeExecution=finish-start;
         Logger.getLogger("JUnit 5").info("Wszystkie testy trwaly " + timeExecution + "ms");
-
     }
-
 
     @Test
     void shouldReturnNoneForMeasurement_10() {
