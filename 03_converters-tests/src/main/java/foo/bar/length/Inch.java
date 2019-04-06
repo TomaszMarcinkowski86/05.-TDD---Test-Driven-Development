@@ -3,6 +3,7 @@ package foo.bar.length;
 import java.math.BigDecimal;
 
 public class Inch implements LengthUnit {
+
     public static final BigDecimal INCH_TO_CENTIMETER =
             new BigDecimal("2.5400").setScale(SCALE, ROUNDING_MODE);
 

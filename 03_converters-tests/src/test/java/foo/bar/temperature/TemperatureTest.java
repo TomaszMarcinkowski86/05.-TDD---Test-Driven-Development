@@ -10,9 +10,5 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TemperatureTest {
 
-    @Test
-    void shouldConvertZeroCelciusValue() {
-        Celsius celcius = new Inch(BigDecimal.ZERO).toCentimeters(); // zero watrość statyczna znaczy to samo co (vauleOf(0))
-        assertEquals(BigDecimal.ZERO.setScale(4), celcius.getValue());
-    }
+
 }
