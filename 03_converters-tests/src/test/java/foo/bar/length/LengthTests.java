@@ -17,7 +17,7 @@ class LengthTests {
 
     @Test
     void shouldConvertZeroCentimetersValue() {
-        Centimeter cm = new Inch(BigDecimal.ZERO).toCentimeters();
+        Centimeter cm = new Inch(BigDecimal.ZERO).toCentimeters(); // zero watrość statyczna znaczy to samo co (vauleOf(0))
         assertEquals(BigDecimal.ZERO.setScale(4), cm.getValue());
     }
 
@@ -41,7 +41,7 @@ class LengthTests {
     void shouldntAcceptNegativeLengthInInches() {
         IllegalArgumentException exception = assertThrows(
                 IllegalArgumentException.class,
-                () -> new Inch(new BigDecimal(-1))
+                () -> new Inch(new BigDecimal(-1)) //lambda bezargumentowa
         );
         assertEquals("Length can't be negative!", exception.getMessage());
     }
