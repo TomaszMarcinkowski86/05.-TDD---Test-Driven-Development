@@ -3,7 +3,8 @@
 
 Czy kiedykolwiek słyszałeś o efekcie latte? Oto kilka linków wyjaśniających ten termin:
 * [https://natemat.pl/70581,efekt-latte-czyli-oszczedzanie-na-drobiazgach](https://natemat.pl/70581,efekt-latte-czyli-oszczedzanie-na-drobiazgach)
-* [https://www.forbes.com/sites/robertberger/2017/05/27/the-latte-factor-7-key-lessons-we-can-learn-from-a-cup-of-coffee/](https://www.forbes.com/sites/robertberger/2017/05/27/the-latte-factor-7-key-lessons-we-can-learn-from-a-cup-of-coffee/)
+* [https://www.forbes.com/sites/robertberger/2017/05/27/the-latte-factor-7-key-lessons-we-can-learn-from-a-cup-of-coffee/]
+(https://www.forbes.com/sites/robertberger/2017/05/27/the-latte-factor-7-key-lessons-we-can-learn-from-a-cup-of-coffee/)
 
 TLDR: `Latte Factor - (ekonomia) Zjawisko polegające na tym, że wiele małych zakupów przyczynia się do znacznych wydatków w czasie
 
@@ -19,7 +20,8 @@ Jeśli oszczędzam 1,23 zł dziennie przez następne 138 dni, powinienem zaoszcz
 Jeśli oszczędzam 2 złote co tydzień przez kolejne 100 dni, powinienem zaoszczędzić "28 PLN"
 i tak dalej...
 `` `
-3. Wersja bardziej zaawansowana powinna umożliwić oszacowanie oszczędności w długim okresie na podstawie wartości procentowej ROI. Załóżmy, że jest to wartość ROI przypisana do danego okresu:
+3. Wersja bardziej zaawansowana powinna umożliwić oszacowanie oszczędności w długim okresie na podstawie wartości procentowej ROI.
+ Załóżmy, że jest to wartość ROI przypisana do danego okresu:
 Przykład:
 ```
 John oszczędza 100 $ miesięcznie zamiast wydawać je na papierosy. Zamiat nałogu wybrał inwestycję z ROI równym 1% / miesiąc
