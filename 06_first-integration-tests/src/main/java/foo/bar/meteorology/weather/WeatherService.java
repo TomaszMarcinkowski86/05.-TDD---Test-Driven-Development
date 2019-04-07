@@ -18,7 +18,6 @@ public class WeatherService {
         this.rainfallProvider = rainfallProvider;
         this.windSpeedProvider = windSpeedProvider;
     }
-
     public Weather getWeather() {
         int temperature = temperatureProvider.getTemperature();
         int windSpeed = windSpeedProvider.getWindSpeed();

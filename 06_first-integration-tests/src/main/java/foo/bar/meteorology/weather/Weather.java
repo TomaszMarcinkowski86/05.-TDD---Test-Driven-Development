@@ -1,5 +1,7 @@
 package foo.bar.meteorology.weather;
 
+import foo.bar.blockchain.external.GlobalIndexExternalService;
+
 public class Weather {
 
     private int temprature;
@@ -10,6 +12,10 @@ public class Weather {
         this.temprature = temprature;
         this.windSpeed = windSpeed;
         this.rainfall = rainfall;
+    }
+
+    public Weather(WeatherService calcMock) {
+
     }
 
     public int getTemprature() {

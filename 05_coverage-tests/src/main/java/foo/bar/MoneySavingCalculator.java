@@ -16,7 +16,7 @@ public class MoneySavingCalculator {
         // 2. ilość dni podzielić przez frequwncy.getDays - to nam da ilość tranzakcji
         // 3. ilość tranzakcji * singleAmmmount
         // 4.  *
-        
+
          return singleAmmount.multiply(BigDecimal.valueOf(duration.getYears()));
     }
 }
